@@ -9,9 +9,18 @@ backgrounds:
 ---
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
- <span class="site-tag">
-    <a href="/archive/tag/{{ tag | first | slugify }}/">
+<span class="site-tag">
+{% capture temp %}{{ tag | last | size }}{% endcapture %}
+{% assign tag_amount = {{temp | plus: 0}} %}
+	{% if tag_amount < 30 %}
+    	<a href="/archive/tag/{{ tag | first | slugify }}/" style="font-size: calc(15px + {{ tag | last | size }}px);" >
+    {% else %}
+    	<a href="/archive/tag/{{ tag | first | slugify }}/" style="font-size: 45px;" >
+	{% endif %}
             {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
     </a>
 </span>
+{% unless forloop.last %}
+, 
+{% endunless %}
 {% endfor %}

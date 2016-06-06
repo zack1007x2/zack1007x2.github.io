@@ -5,12 +5,6 @@ backgrounds:
     - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/freezing.jpeg
     - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/village.jpeg
 ---
-
-<header id="post-header">
-    <h1 id="post-title">{{ page.tag }}</h1>
-    <h4 id="post-subtitle">Articles by tag</h4>
-</header>
-
 <div id="post-content">
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
