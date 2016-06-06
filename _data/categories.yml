@@ -1,0 +1,21 @@
+- slug: general
+  name: General
+  color: '#3498db'
+  
+- slug: programming
+  name: Programming
+  color: '#1abc9c'
+
+- slug: music
+  name: Music
+  color: '#1abc9c'
+
+- slug: travel
+  name: Travel
+  color: '#1abc9c'
+
+- slug: photography
+  name: Photography
+  color: '#1abc9c'
+
+  

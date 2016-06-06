@@ -9,6 +9,7 @@ url: 'http://yourdomain.com' # the base hostname & protocol for your site
 markdown:            kramdown
 relative_permalinks: false
 permalink:           :title/
+highlighter: pygments
 
 pagination:          true
 paginate:            8
@@ -35,7 +36,7 @@ defaults:
         show_categories: true
         # Social
         share_buttons: true
-        disqus: true
+        disqus: false
 
 gems:
     - jekyll-feed
