@@ -1,0 +1,17 @@
+---
+layout: page
+title: Tag
+permalink: /tag/
+backgrounds:
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/on-the-road.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/freezing.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/village.jpeg
+---
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+ <span class="site-tag">
+    <a href="/archive/tag/{{ tag | first | slugify }}/">
+            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
+</span>
+{% endfor %}

@@ -1,5 +1,9 @@
 ---
-layout: default
+layout: page
+backgrounds:
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/on-the-road.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/freezing.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/village.jpeg
 ---
 
 <header id="post-header">
@@ -7,12 +11,15 @@ layout: default
     <h4 id="post-subtitle">Articles by category</h4>
 </header>
 
-<div id="post-content">
+<div id="post-content" class="home">
     {% if site.categories[page.category] %}
+     
         {% for post in site.categories[page.category] %}
+            
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% if forloop.first %}
                 <h3>{{ post_year }}</h3><div class="list-group">
+                <ul class="post-list">
             {% endif %}
             
             {% if forloop.first == false %}
@@ -20,18 +27,30 @@ layout: default
                 {% capture previous_post_year %}{{ site.categories[page.category][previous_index].date | date: '%Y' }}{% endcapture %}
                 {% if post_year != previous_post_year %}
                     </div><h3>{{ post_year }}</h3><div class="list-group">
+                    <ul class="post-list">
                 {% endif %}
             {% endif %}
             
-            <a href="{{ post.url }}" class="list-group-item">
-                <h4 class="list-group-item-heading">{{ post.title }}</h4>
-            </a>
+           
+                <li>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-link">
+                        <div class="post-list-info">
+                            <h2 class="post-list-title">{{ post.title }}</h2>
+                            <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+                        </div>
+                    </a>
 
-            {% if forloop.last %}
-                </div>
-            {% endif %}
-        {% endfor %}
+                    <img src="{{ post.thumb }}" class="post-list-thumb" />
+                </li>
+                    {% if forloop.last %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            
     {% else %}
         <p>There are no posts in this category.</p>
     {% endif %}
 </div>
+
