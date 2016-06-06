@@ -2,6 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+backgrounds:
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/on-the-road.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/freezing.jpeg
+    - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/village.jpeg
 ---
 
 Travelogue is a minimal, single-column Jekyll theme that provides an immersive read experience for your readers.
