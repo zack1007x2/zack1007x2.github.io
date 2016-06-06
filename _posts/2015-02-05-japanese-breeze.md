@@ -5,7 +5,7 @@ date: 2015-02-05
 backgrounds:
     - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/tube.jpg
 thumb: https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/thumbs/chemex.jpg
-categories: travel city
+category: travel
 tags: [github, github-pages, jekyll]
 ---
 

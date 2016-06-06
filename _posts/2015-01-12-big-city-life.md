@@ -6,7 +6,7 @@ backgrounds:
     - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/vanilla.jpeg
     - https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/morning.jpeg
 thumb: https://dl.dropboxusercontent.com/u/18322837/cdn/Streetwill/thumbs/the-bridge.jpeg
-categories: travel city
+category: travel
 tags: [github, github-pages, jekyll]
 ---
 
