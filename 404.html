@@ -1,52 +1,72 @@
 
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Oops!404 NOT FOUND</title>
-	<style>
-    body {
-    	background-color: #0000aa;
-        color: #ffffff;
-        font-family: monospace;
-        font-size: 20px;
-        overflow: hidden;
-    }
-    pre {
-        font-family: 'Lucida Console', monospace;
-    }
-    a {
-    	color: #fff;
-    	text-decoration: none;
-    }
-    a:hover {
-		font-size:larger;
-    }
-    div{
-        text-align: center;
-        font-size: 40px;
-    }
-	</style>
-	</head>
-<body>
-<pre>A problem has been detected and Zack1007x2 's website has been shut down to prevent
-damage to his website.<br>
-The problem seems to be caused by the following exception: io.FileNotFoundException 
-(No such file or directory)<br>
-If this is the first time you've seen this Stop error screen,
-restart your web browser. If this screen appears again, follow
-these steps:<br>
-Recheck that you are attempting to navigate to a valid URL. If this was
-the target of an off-site link, ask the maintainer of the referring site
-for any new information on the whereabouts of your information.<br>
-If problems continue, disable or remove any newly installed extensions or
-GreaseMonkey scripts. Disable browser features such as caching or cookies.
-If you need to use Safe Mode to remove or disable components, restart
-your computer, wait for the startup tone, and immediately press and hold
-the shift key until you see the gray Apple logo and progress indicator.<br>
-Or,you can just click here to <a href="http://zack1007x2.github.io"><font style="border:solid #fff 1px;">restart</font></a>.<br>
-<pre>Technical information:<br>
-*** STOP： 0X00000003 0X03C91000、 0X00000134、 0X00000CF0 0X00000000）<br>
-UNSYNCHRONIZED_ACCESS</pre>
-<div><a href="http://zack1007x2.github.io" onmouseover="this.innerHTML='; )'" onmouseout="this.innerHTML=': ('">: (</a></div>
-</body>
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<title>Oops!404 NOT FOUND</title>
+    	<style>
+        body {
+        	background-color: #0000aa;
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 20px;
+            overflow: hidden;
+        }
+        pre {
+            font-family: 'Lucida Console', monospace;
+        }
+        a {
+        	color: #fff;
+        	text-decoration: none;
+        }
+        a:hover {
+    		font-size:larger;
+        }
+        div{
+            text-align: center;
+            font-size: 40px;
+        }
+    	</style>
+    </head>
+    <body>
+     	<br>
+	    <!--<header class="post-header">
+	        <h1 class="post-title" style="text-align: center;">ERROR 404!</h1>
+	    </header>
+	    <br>-->
+        <pre>
+            A problem has been detected and Zack1007x2 's website has been shut down to prevent
+            damage to his website.<br>
+            The problem seems to be caused by the following exception: io.FileNotFoundException 
+            (No such file or directory)<br>
+            If this is the first time you've seen this Stop error screen,
+            restart your web browser. If this screen appears again, follow
+            these steps:<br>
+            Recheck that you are attempting to navigate to a valid URL. If this was
+            the target of an off-site link, ask the maintainer of the referring site
+            for any new information on the whereabouts of your information.<br>
+            If problems continue, disable or remove any newly installed extensions or
+            GreaseMonkey scripts. Disable browser features such as caching or cookies.
+            If you need to use Safe Mode to remove or disable components, restart
+            your computer, wait for the startup tone, and immediately press and hold
+            the shift key until you see the gray Apple logo and progress indicator.<br>
+            <!-- you can just click here to <a href="http://zack1007x2.github.io"><font style="border:solid #fff 1px;">restart</font></a>.<br> -->
+        <pre style="text-align: center;">
+            <!--{Technical information:<br>
+                        *** STOP： 0X00000003 0X03C91000、 0X00000134、 0X00000CF0 0X00000000）<br>
+                        UNSYNCHRONIZED_ACCESS}-->
+             PRESS ANY KEY TO CONTINUE</h1>           
+        </pre>
+        <div>
+            <a href="http://zack1007x2.github.io" onmouseover="this.innerHTML='; )'" onmouseout="this.innerHTML=': ('">: (</a>
+        </div>
+
+        <script language="JavaScript" type="text/javascript">
+        	document.onkeypress = function(key_dtl){
+        		key_dtl = key_dtl || window.event;
+        		var uni_code  = key_dtl.keyCode || key_dtl.which;
+        		var key_name = String.fromCharCode(uni_code);
+        		window.location.replace("http://zack1007x2.github.io");
+        	}
+        </script>
+    </body>
 </html>
