@@ -1,0 +1,26 @@
+---
+layout: page
+title: Category
+title_zh: 文章分類
+permalink: /category/
+backgrounds:
+    - https://2.bp.blogspot.com/-OsTcX3z9FDI/V11eZ6tx6EI/AAAAAAAAFvg/MuXp9yFHsrgxAoY0HE5JJVz1u-B7w0vyQCPcB/s1600/IMG_4652.JPG
+---
+{% assign categories = site.categories | sort %}
+{% for category in categories %}
+<span class="site-tag">
+{% capture temp %}{{ category | last | size }}{% endcapture %}
+<!-- use math filter plus 0 or times 1 to convert str to num -->
+{% assign tag_amount = {{temp | plus: 0}} %}
+	{% if tag_amount < 30 %}
+    	<a href="/archive/category/{{ category | first | slugify }}/" style="font-size: calc(15px + {{ category | last | size }}px);" >
+    {% else %}
+    	<a href="/archive/category/{{ category | first | slugify }}/" style="font-size: 45px;" >
+	{% endif %}
+            {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+    </a>
+</span>
+{% unless forloop.last %}
+, 
+{% endunless %}
+{% endfor %}
