@@ -11,7 +11,15 @@
             {% if node.title != null %}
                 {% if node.layout == "page" %}
                 <li class="sb-close {% if page.url == node.url %}active{% endif %}">
+                    {% if node.title_zh == null %}
                     <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+                    {% else %}
+                    <a href="{{ node.url | prepend: site.baseurl }}" 
+                        onmouseover="this.innerHTML='{{ node.title_zh }}';"
+                        onmouseout="this.innerHTML='{{ node.title }}';">
+                        {{ node.title }}
+                        </a>
+                    {% endif %}
                 </li>
                 {% endif %}
             {% endif %}
