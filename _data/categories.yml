@@ -2,20 +2,22 @@
   name: General
   color: '#3498db'
   
-- slug: programming
-  name: Programming
+- slug: 程式設計
+  name: 程式設計
   color: '#1abc9c'
 
-- slug: music
-  name: Music
+- slug: 音樂
+  name: 音樂
   color: '#1abc9c'
 
-- slug: travel
-  name: Travel
+- slug: 旅遊
+  name: 旅遊
   color: '#1abc9c'
 
-- slug: photography
-  name: Photography
+- slug: 攝影
+  name: 攝影
   color: '#1abc9c'
 
-  
+- slug: 書摘
+  name: 書摘
+  color: '#1abc9c'

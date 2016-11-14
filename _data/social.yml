@@ -3,8 +3,8 @@ facebook: true
 twitter: true
 googleplus: true
 linkedin: false
-reddit: true
-hackernews: true
+reddit: false
+hackernews: false
 pinterest: false
 tumblr: false
 pocket: true
