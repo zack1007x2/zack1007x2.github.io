@@ -8,4 +8,4 @@ backgrounds:
 
 ---
 
-{% twitter https://twitter.com/zack1007x2 limit=5 %}
+<a class="twitter-timeline" data-partner="tweetdeck" data-tweet-limit="5" href="https://twitter.com/zack1007x2">Tweets by zack1007x2</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
