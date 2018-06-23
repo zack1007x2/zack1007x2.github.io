@@ -11,7 +11,7 @@ tags: [docker,  python]
 
 ## 課堂筆記
 ### 使用docker build
-建立client image 並上傳docker hub
+使用Dockerfile 建立client image 並上傳docker hub
 client Dockerfile 如下
 ``` python
 # build image from src image
@@ -111,7 +111,7 @@ networks:
 
 
 ### remote compiler
-架構
+#### 架構
 [![][image-1]][1]
 #### client端
 container run起來後會執行此程式
