@@ -3,8 +3,8 @@ layout: post
 title: "Android MVC 心得"
 date: 2016-09-20
 backgrounds:
-    - https://4.bp.blogspot.com/-TIT7oWTzF6s/V109h7Pb4cI/AAAAAAAACpY/SiUi4hIBWIc53mneqNpAbrqhkMigbjo-wCPcB/s1600/IMG_5594.JPG
-thumb: https://3.bp.blogspot.com/-VW0qA3jnUbM/WCgxCxEhyRI/AAAAAAAAFv8/xiCcxlpzTL8a2oK-u1XocaBr7Q4tYnsLgCPcB/s200/IMG_1249.JPG
+	- https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
+thumb: https://lh3.googleusercontent.com/3\_3nV9AdCfbdS-aRhs89nCuIu-po\_V30zPV665R19QXO7Vpk35WdbdUBSfpaAs\_5ieHPE6ZfomuAC99UNLjpyIiFsAOFUjjIRmU8-Yf3VaYokQ4q7JpcE9rOCRTgrHJiHzD71fBmaA
 category: programming
 tags: [Android, MVC]
 ---
@@ -50,5 +50,4 @@ alert("Hello " + name);
 {% endhighlight %}-->
 
 <!--![Sample Image](http://placehold.it/600x480)-->
-
 

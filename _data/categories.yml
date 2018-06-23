@@ -21,3 +21,11 @@
 - slug: 書摘
   name: 書摘
   color: '#1abc9c'
+
+- slug: 病友日記
+  name: 病友日記
+  color: '#1abc9c'
+
+- slug: 研究生日記
+  name: 研究生日記
+  color: '#1abc9c'

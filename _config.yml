@@ -37,7 +37,12 @@ defaults:
         share_buttons: true
         disqus: false
 
-gems:
+plugins:
     - jekyll-feed
     - jekyll-sitemap
     - jekyll-paginate
+    - jekyll-optional-front-matter
+
+jekyll_admin:
+  hidden_links:
+    
