@@ -13,6 +13,9 @@ permalink:           :title/
 pagination:          true
 paginate:            8
 paginate_path:       page/:num/
+fenced_code_blocks:  true
+excerpt_separator: ""
+highlighter: rouge
 
 author:
     name: 'ZackYang'
@@ -24,8 +27,7 @@ sass:
     style:    compressed
 
 defaults:
-  -
-      scope:
+    - scope:
         path: '_posts'
         type: 'posts'
       values:
@@ -45,4 +47,6 @@ plugins:
 
 jekyll_admin:
   hidden_links:
-    
+
+kramdown:
+  input:  GFM
