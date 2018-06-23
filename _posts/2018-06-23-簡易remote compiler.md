@@ -39,7 +39,7 @@ EXPOSE 5000
 
 server 與其類似多增加些compiler功能
 
-使用```docker build . `
+使用`docker build . `
 建立client image 之後使用
 `docker commit`, `docker push`
 上傳至docker hub
