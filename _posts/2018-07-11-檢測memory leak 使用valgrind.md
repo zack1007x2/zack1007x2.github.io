@@ -11,9 +11,11 @@ tags: memory_leak candcpp
 ---
 
 # 關於valgrind
+
 參考： [ https://zh.wikipedia.org/wiki/Valgrind ]( https://zh.wikipedia.org/wiki/Valgrind )
 
 ------
+
 # 五種memory leak說明
 
 - "definitely lost" 
@@ -38,15 +40,21 @@ means that a leak error has been suppressed. There are some suppressions in the 
 ------
 
 # valgrind安裝
+
 嘗試過現在已經無法在新版本的OSX上跑了
+
 所幸這陣子學到如何使用docker
+
 立馬用先前寫好的dockerfile啟動一個ubuntu環境
+
 ``` python
 sudo apt-get install valgrind
 ```
 
 以最近執行的專案為例
+
 先將專案compile
+
 ``` python
 gcc -g -o Output main.c graph.c Node.c tree.c forest.c 
 graph_generator.c Array.c ./rngs/rngs.c -lm
@@ -54,12 +62,14 @@ graph_generator.c Array.c ./rngs/rngs.c -lm
 
 
 之後對輸出的Output檔做檢測
+
 ``` python
 valgrind --leak-check=full --show-leak-kinds=all 
 --verbose ./Output
 ```
 
 檢測結果範例：
+
 ``` c
 ==666== Memcheck, a memory error detector
 ==666== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
