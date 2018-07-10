@@ -9,16 +9,21 @@ backgrounds:
 ---
 {% assign categories = site.categories | sort %}
 {% for category in categories %}
+{% for site_category in site.data.categories %}
+    {% if site_category.slug == category[0] %}
+        {% assign mycategory = site_category %}
+    {% endif %}
+{% endfor %}
 <span class="site-tag">
 {% capture temp %}{{ category | last | size }}{% endcapture %}
 <!-- use math filter plus 0 or times 1 to convert str to num -->
 {% assign tag_amount = temp | plus: 0 %}
 	{% if tag_amount < 30 %}
-    	<a href="/archive/category/{{ category | first | slugify }}/" style="font-size: calc(15px + {{ category | last | size }}px);" >
+    	<a href="/archive/category/{{ mycategory.slug }}/" style="font-size: calc(15px + {{ category | last | size }}px);" >
     {% else %}
-    	<a href="/archive/category/{{ category | first | slugify }}/" style="font-size: 45px;" >
+    	<a href="/archive/category/{{ mycategory.slug }}/" style="font-size: 45px;" >
 	{% endif %}
-            {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+            {{ mycategory.name }} ({{ category | last | size }})
     </a>
 </span>
 {% unless forloop.last %}

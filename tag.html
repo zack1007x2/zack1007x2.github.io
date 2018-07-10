@@ -9,16 +9,21 @@ backgrounds:
 ---
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
+{% for data_tag in site.data.tags %}
+        {% if data_tag.slug == tag[0] %}
+            {% assign newtag = data_tag %}
+        {% endif %}
+    {% endfor %}
 <span class="site-tag">
 {% capture temp %}{{ tag | last | size }}{% endcapture %}
 <!-- use math filter plus 0 or times 1 to convert str to num -->
 {% assign tag_amount = temp | plus: 0 %}
 	{% if tag_amount < 30 %}
-    	<a href="/archive/tag/{{ tag | first | slugify }}/" style="font-size: calc(15px + {{ tag | last | size }}px);" >
+    	<a href="/archive/tag/{{ newtag.slug }}/" style="font-size: calc(15px + {{ tag | last | size }}px);" >
     {% else %}
-    	<a href="/archive/tag/{{ tag | first | slugify }}/" style="font-size: 45px;" >
+    	<a href="/archive/tag/{{ newtag.slug }}/" style="font-size: 45px;" >
 	{% endif %}
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+            {{ newtag.name }} ({{ tag | last | size }})
     </a>
 </span>
 {% unless forloop.last %}
