@@ -1,9 +1,5 @@
-- slug: general
-  name: General
-  color: '#3498db'
-  
-- slug: 程式設計
-  name: 程式設計
+- slug: programming
+  name: programming
   color: '#1abc9c'
 
 - slug: 音樂
@@ -28,4 +24,8 @@
 
 - slug: 研究生日記
   name: 研究生日記
+  color: '#1abc9c'
+
+- slug: e04誰會記得
+  name: e04誰會記得
   color: '#1abc9c'
