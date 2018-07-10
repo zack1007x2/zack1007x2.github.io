@@ -6,12 +6,12 @@ backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 thumb: https://lh3.googleusercontent.com/fesu-l5g6yAEiWxbsD-4TiXo6rYJ68r7u7MsolVwnnfgnLDC7h0uAc8lF74ZSbZpvTd_lY3A4iYAnAy7VzxAp_fKxQrwiyALqUOHmlC8miKg9lXDlGDvPQuZv9QWTAyUtttyZLHGDw=w2400
 category: programming
-tags: memory_leak candcpp cmd
+tags: memory_leak candcpp
 
 ---
 
 # 關於valgrind
-參考：https://zh.wikipedia.org/wiki/Valgrind
+參考： [ https://zh.wikipedia.org/wiki/Valgrind ]( https://zh.wikipedia.org/wiki/Valgrind )
 
 ------
 # 五種memory leak說明
