@@ -1,17 +1,5 @@
-- slug: django
-  name: Django
-
-- slug: django-template-tags
-  name: Django Template Tags
-
-- slug: font-awesome
-  name: Font Awesome
-
-- slug: icons
-  name: Icons
-
-- slug: image-processing
-  name: Image Processing
+- slug: java
+  name: Java
 
 - slug: python
   name: Python
@@ -39,3 +27,15 @@
 
 - slug: 待解決
   name: 待解決
+
+- slug: cmd
+  name: cmd
+
+- slug: blog
+  name: Blog
+
+- slug: memory_leak
+  name: Memory Leak
+
+- slug: candcpp
+  name: C/C++
