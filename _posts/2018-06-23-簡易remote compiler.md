@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “docker練習-簡易remote compiler”
+title: docker練習-簡易remote compiler
 date: 2018-06-23
 backgrounds:
 - https://lh3.googleusercontent.com/ua4SxNBvdWHW\_pXNE6CgLAl4pS6iqdue02CQEE0ErNYKn4a0WnUABbsOOynL5wQymTcN0CbRoZq9hF\_QHeYOjVRBP611d6scXE\_umXBcGMbQ2V\_bHb\_-htdWbUcj9SKxXvY6MJ2wWhQ=w2400
