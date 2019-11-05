@@ -5,8 +5,8 @@ date: 209-10-04
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 thumb: http://zack1007x2.github.io/assets/images/thumbs/IMG1252.JPG
-category: programming
-tags: []
+category: 音樂
+tags: [Music]
 ---
 
 I found you all alone
