@@ -25,6 +25,10 @@ unzip xxx.zip
 unrar -e xxx.rar
 ```
 
+``` python
+7za e xxx.7z
+```
+
 - 隱藏檔案
 
 ``` python

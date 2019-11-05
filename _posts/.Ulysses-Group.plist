@@ -6,42 +6,18 @@
 	<dict>
 		<key>sheetClusters</key>
 		<dict>
-			<key>---.md</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>551460661.42464006</real>
-				<key>lastModification</key>
-				<real>551460661.42464006</real>
-				<key>version</key>
-				<dict>
-					<key>4a004a8896e021681db4f70a73163c6f48496ad1dc11f77a4e9cfe586c1d068d</key>
-					<integer>34</integer>
-				</dict>
-			</dict>
 			<key>2016-06-12-輕鬆駕馭意志力.md</key>
 			<dict>
-				<key>lastModification</key>
-				<real>521397022.296947</real>
-				<key>version</key>
-				<dict>
-					<key>4a004a8896e021681db4f70a73163c6f48496ad1dc11f77a4e9cfe586c1d068d</key>
-					<integer>2</integer>
-				</dict>
-			</dict>
-			<key>sa.md</key>
-			<dict>
 				<key>explicitUnassignment</key>
 				<true/>
 				<key>firstUnassignment</key>
-				<real>551460658.87278104</real>
+				<real>556769488.07411599</real>
 				<key>lastModification</key>
-				<real>551460658.87278104</real>
+				<real>556769488.07411599</real>
 				<key>version</key>
 				<dict>
 					<key>4a004a8896e021681db4f70a73163c6f48496ad1dc11f77a4e9cfe586c1d068d</key>
-					<integer>33</integer>
+					<integer>36</integer>
 				</dict>
 			</dict>
 		</dict>
@@ -51,13 +27,7 @@
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>sa.md</string>
-		</array>
-		<array>
 			<string>2016-06-12-輕鬆駕馭意志力.md</string>
-		</array>
-		<array>
-			<string>---.md</string>
 		</array>
 	</array>
 	<key>storeFormatVersion</key>
@@ -69,7 +39,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>4a004a8896e021681db4f70a73163c6f48496ad1dc11f77a4e9cfe586c1d068d</key>
-			<integer>35</integer>
+			<integer>36</integer>
 		</dict>
 		<key>userIconName</key>
 		<dict>
