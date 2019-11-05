@@ -4,9 +4,9 @@ title: LiveData vs. ObservableField for data binding
 date: 2019-10-05
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
-thumb: https://lh3.googleusercontent.com/HAJ6n1YkKq8zy2TokpKN1fU0sv30tsdistq0wTdvlC-KE-aZw5sbSa6FOzGaCUMWlb8Gy9oJIC6\_4\_rxIyU0MyV-4VwycJea2PmSHz0Y\_sgdWjYSjB7\_wKWe3EQYWTGW8lhGzHLIhQ=s225-p-k
+thumb: http://zack1007x2.github.io/assets/images/thumbs/kotlin.jpg
 category: programming
-tags: []
+tags: [Kotlin, Android]
 ---
 
 ### **LiveData vs. ObservableField**
@@ -23,9 +23,9 @@ ref : [ livedata-vs-observablefield-for-data-binding ][1]
 ![][image-1]
 我們有兩種方式宣告view model
 
-``` java
+\`\`\` java
 public class MainViewModel extends ViewModel {
-    ...
+	...
 }
  ```
 

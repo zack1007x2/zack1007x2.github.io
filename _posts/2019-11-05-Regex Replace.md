@@ -4,7 +4,7 @@ title: 使用Regex做ReplaceAll
 date: 2019-11-05
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
-thumb: http://zack1007x2.github.io/assets/images/thumbs/han.jpg
+thumb: http://zack1007x2.github.io/assets/images/thumbs/android.jpg
 category: programming
 tags: [Regex, Kotlin, Android]
 ---
