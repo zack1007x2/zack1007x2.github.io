@@ -4,9 +4,9 @@ title: LiveData vs. ObservableField for data binding
 date: 2019-10-05
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
-thumb: http://zack1007x2.github.io/assets/images/thumbs/kotlin.jpg
+thumb: http://zack1007x2.github.io/assets/images/thumbs/kotlin.png
 category: programming
-tags: [Kotlin, Android]
+tags: [kotlin, android]
 ---
 
 ### **LiveData vs. ObservableField**

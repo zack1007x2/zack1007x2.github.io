@@ -6,7 +6,7 @@ backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 thumb: http://zack1007x2.github.io/assets/images/thumbs/android.jpg
 category: programming
-tags: [Regex, Kotlin, Android]
+tags: [regex, kotlin, android]
 ---
 當我們接收到Json格式資料時
 可以透過Serialize方式將JsonObject直接轉為目標Object

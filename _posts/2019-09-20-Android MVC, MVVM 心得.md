@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Android MVC, MVVM 心得
-date: 2016-09-20
+title: Android MVVM 心得
+date: 2019-09-20
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
-thumb: https://lh3.googleusercontent.com/3\_3nV9AdCfbdS-aRhs89nCuIu-po\_V30zPV665R19QXO7Vpk35WdbdUBSfpaAs\_5ieHPE6ZfomuAC99UNLjpyIiFsAOFUjjIRmU8-Yf3VaYokQ4q7JpcE9rOCRTgrHJiHzD71fBmaA
+thumb: http://zack1007x2.github.io/assets/images/thumbs/android.jpg
 category: programming
-tags: [Android, MVC]
+tags: [android, MVC]
 ---
 
 java object 之間視為傳值

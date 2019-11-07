@@ -1,6 +1,8 @@
 ---
-layout: blog\_by\_tag
-title: Articles by tag: Music
-tag: Music
-permalink: /archive/tag/Music/
+layout: blog_by_tag
+title: 'Articles by tag: Music'
+backgrounds:
+- https://3.bp.blogspot.com/-PdCh8Og8ZQk/WChV-XMC1WI/AAAAAAAAFxY/BERQzOaWBtg3qxwXhfd3lE30vK7Zqi7RACPcB/s1600/IMG\_1252.JPG
+tag: music
+permalink: /archive/tag/music/
 ---
