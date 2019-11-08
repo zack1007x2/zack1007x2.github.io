@@ -33,15 +33,15 @@ LiveData的特性為資料會根據生命週期來發出變數改變的callback
 我們有兩種方式宣告view model
 
 ~~```java
-~~public class MainViewModel extends ViewModel {
-~~  ...
-~~}
+public class MainViewModel extends ViewModel {
+    ...
+}
 ~~```
 
 ~~``` java
-~~public class MainViewModel extends AndroidViewModel {
-~~  ...
-~~}
+public class MainViewModel extends AndroidViewModel {
+  ...
+}
 ~~```
 
 特色在於這兩種view model都會在綁定的活動完全死去才回收該Object
@@ -81,4 +81,4 @@ AndroidViewModel 則可以解決需要context的窘境
 
 [1]:	https://stackoverflow.com/questions/53836429/livedata-vs-observablefield-for-data-binding
 
-[image-1]:	https://developer.android.com/images/topic/libraries/architecture/viewmodel-lifecycle.png
+[image-1]:	https://developer.android.com/images/topic/libraries/architecture/viewmodel-lifecycle.pn
