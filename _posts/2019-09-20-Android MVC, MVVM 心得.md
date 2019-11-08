@@ -9,25 +9,41 @@ category: programming
 tags: [android, MVC]
 ---
 
-java object 之間視為傳值
-但傳object是傳其位址之值
-
 MVVM
 
-
+---
 
 ## Model
-activity負責view 有關的model
-其他model各司其職
+
+涉及資料庫, service, web等
+
+只要能修改到data都歸類於此
+
+使用Repository來統一管理
+
+並以singleton方式建立Repository
+
+讓其他class可隨意存取所需的data
+
+通常Repository可依照用途作細分
 
 ## View
 
-xml, 自製的view
+主要由activity, fragment 來決定view的呈現
 
 ## ViewModel
 
-存放給view觀察的變數
-這些變數透過呼叫model來更新
+存放給view觀察和給model修改的變數
+
+類似controller的角色
+
+勿將activity或fragment的context傳入viewmodel
+
+會讓viewmodel回收時產生memory leak
+
+通常會讓同一個activity建立的多個fragments
+
+共用一個viewmodel來達到資料共享的目的
 
 <!--{% highlight scss %}
 .container {
@@ -66,4 +82,4 @@ alert("Hello " + name);
 </main>
 {% endhighlight %}-->
 
-<!--![Sample Image](http://placehold.it/600x480)-->
+<!--![Sample Image](http://placehold.it/600x480)--
