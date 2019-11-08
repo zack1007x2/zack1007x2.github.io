@@ -9,9 +9,9 @@ category: programming
 tags: [android, MVC]
 ---
 
-MVVM
+# MVVM
 
----
+-— 
 
 ## Model
 
