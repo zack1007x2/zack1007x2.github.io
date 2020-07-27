@@ -9,7 +9,7 @@ category: programming
 tags: [LeetCode]
 ---
 
-[](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
 
 題目大意：給定一串數列 從中找到兩個數字作為高度兩者之間的間隔當作寬度算出可以裝的最大水量
 
