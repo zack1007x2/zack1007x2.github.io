@@ -4,7 +4,7 @@ title: "LeetCode練習(1)-Container With Most Water"
 date: 2020-07-24
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
-thumb: https://lh3.googleusercontent.com/HAJ6n1YkKq8zy2TokpKN1fU0sv30tsdistq0wTdvlC-KE-aZw5sbSa6FOzGaCUMWlb8Gy9oJIC6_4_rxIyU0MyV-4VwycJea2PmSHz0Y_sgdWjYSjB7_wKWe3EQYWTGW8lhGzHLIhQ=s225-p-k
+thumb: /assets/images/thumbs/leetcode.png
 category: programming
 tags: [leetcode]
 ---

@@ -2,7 +2,7 @@
 layout: blog_by_tag
 title: 'Articles by tag: Leetcode'
 backgrounds:
-- https://3.bp.blogspot.com/-PdCh8Og8ZQk/WChV-XMC1WI/AAAAAAAAFxY/BERQzOaWBtg3qxwXhfd3lE30vK7Zqi7RACPcB/s1600/IMG\_1252.JPG
+- https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 tag: leetcode
 permalink: /archive/tag/leetcode/
 ---
