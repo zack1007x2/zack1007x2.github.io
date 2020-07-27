@@ -6,7 +6,7 @@ backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 thumb: https://lh3.googleusercontent.com/HAJ6n1YkKq8zy2TokpKN1fU0sv30tsdistq0wTdvlC-KE-aZw5sbSa6FOzGaCUMWlb8Gy9oJIC6_4_rxIyU0MyV-4VwycJea2PmSHz0Y_sgdWjYSjB7_wKWe3EQYWTGW8lhGzHLIhQ=s225-p-k
 category: programming
-tags: [LeetCode]
+tags: [leetcode]
 ---
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
