@@ -24,11 +24,14 @@ tags: [LeetCode]
 ```kotlin
     fun maxArea(height: IntArray): Int {
         var max =0
-        for(i in height.indices){
-            for(j in i+1 until height.size){
-                val size = if(height[i]>height[j])height[j]*(j-i)else height[i]*(j-i)
-                if(size>max)
-                    max=size
+      	//i=0..height-1
+        for(i in height.indices){ 
+          	//j=i+1..height-1
+            for(j in i+1 until height.size){ 
+              val size = if(height[i]>height[j])height[j]*(j-i)else height[i]*(j-i)
+              //save max  
+              if(size>max)
+                    max=size 
             }
         }
         return max
