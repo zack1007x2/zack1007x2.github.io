@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LeetCode練習(4)-3Sum"
-date: 2020-07-27
+date: 2020-08-07
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
 thumb: /assets/images/thumbs/leetcode.png
