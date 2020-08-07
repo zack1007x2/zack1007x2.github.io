@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode練習(1)-Integer to Roman"
+title: "LeetCode練習(2)-Integer to Roman"
 date: 2020-07-27
 backgrounds:
 - https://lh3.googleusercontent.com/vwuOQZ5xS\_\_kQZVuTPaBZxChACmwIEeXrkznajiHJTxYso\_IpI2JD\_1LxsF\_5ZsWWi6Nq1jGexF00qjDuYsE-b45VXWJBQUNa50lhWeJ4E5Dyg\_c0Yb9eo1nSuu8D6nZKrNKPH6y9Q
@@ -90,3 +90,36 @@ public static String intToRoman(int num) {
 ```
 
 直接轉為十進位串接，只是寫code懶得自己轉...所以就算了
+
+
+
+
+
+類似題：羅馬數字轉為數字
+
+```fun romanToInt(s: String): Int {
+            fun romanToInt(s: String): Int {
+              val chars = s.toCharArray()
+              val map = HashMap<Char,Int>()
+              map['I'] = 1
+              map['V'] = 5
+              map['X'] = 10
+              map['L'] = 50
+              map['C'] = 100
+              map['D'] = 500
+              map['M'] = 1000
+              var ret=0
+              for(i in chars.indices){
+                  if(i+1<chars.size && map[chars[i]]!! < map[chars[i+1]]!!){
+                      ret-=map[chars[i]]!!
+                  } else{
+                      ret+=map[chars[i]]!!
+                  }
+              }
+
+              return ret
+        	}
+```
+
+想法：
+一個字一個字累加遇到前面比後面小的就用減
