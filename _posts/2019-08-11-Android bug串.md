@@ -13,7 +13,7 @@ tags: [android]
 
 ## 前言
 
-#### 關於EditText 
+#### 關於EditText
 
 數字前有0
 
@@ -62,3 +62,6 @@ sc_container.setOnTouchListener { v, event ->
 
 
 
+
+
+#is_material
