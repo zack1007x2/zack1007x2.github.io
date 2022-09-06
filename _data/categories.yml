@@ -34,7 +34,7 @@
   name: 漫畫
   color: '#1abc9c'
 
-- slug: 日常分享
+- slug: daily
   name: 日常分享
   color: '#1abc9c'
 
@@ -42,3 +42,6 @@
   name: 跑車日誌
   color: '#1abc9c'
 
+- slug: 公司
+  name: 公司
+  color: '#1abc9c'
